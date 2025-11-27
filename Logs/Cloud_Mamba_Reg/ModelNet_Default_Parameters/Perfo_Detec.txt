@@ -1,0 +1,45 @@
+2024-10-10 11:10:07,951 - ModelNet - INFO - The size of test data is 2468
+2024-10-10 11:10:07,952 - ModelNet - INFO - Load processed data from Data/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2024-10-10 11:10:08,412 - root - INFO - ------- Logs/Cloud_Mamba_Reg/ModelNet - 32768
+2024-10-10 11:10:08,412 - root - INFO - flops: 36.796G 
+
+2024-10-10 11:43:27,015 - ModelNet - INFO - The size of test data is 2468
+2024-10-10 11:43:27,015 - ModelNet - INFO - Load processed data from Data/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2024-10-10 11:43:27,366 - root - INFO - ------- Logs/Cloud_Mamba_Reg/ModelNet - 16384
+2024-10-10 11:43:27,366 - root - INFO - flops: 18.398G 
+
+2024-10-10 11:43:54,142 - ModelNet - INFO - The size of test data is 2468
+2024-10-10 11:43:54,142 - ModelNet - INFO - Load processed data from Data/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2024-10-10 11:43:54,462 - root - INFO - ------- Logs/Cloud_Mamba_Reg/ModelNet - 8192
+2024-10-10 11:43:54,462 - root - INFO - flops: 9.199G 
+
+2024-10-10 11:44:23,354 - ModelNet - INFO - The size of test data is 2468
+2024-10-10 11:44:23,354 - ModelNet - INFO - Load processed data from Data/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2024-10-10 11:44:23,671 - root - INFO - ------- Logs/Cloud_Mamba_Reg/ModelNet - 4096
+2024-10-10 11:44:23,671 - root - INFO - flops: 4.600G 
+
+2024-10-10 11:44:51,265 - ModelNet - INFO - The size of test data is 2468
+2024-10-10 11:44:51,265 - ModelNet - INFO - Load processed data from Data/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2024-10-10 11:44:51,570 - root - INFO - ------- Logs/Cloud_Mamba_Reg/ModelNet - 2048
+2024-10-10 11:44:51,570 - root - INFO - flops: 2.300G 
+
+2024-10-10 11:45:11,458 - ModelNet - INFO - The size of test data is 2468
+2024-10-10 11:45:11,458 - ModelNet - INFO - Load processed data from Data/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2024-10-10 11:45:11,771 - root - INFO - ------- Logs/Cloud_Mamba_Reg/ModelNet - 1024
+2024-10-10 11:45:11,771 - root - INFO - flops: 1.150G 
+
+2024-10-10 11:52:00,857 - ModelNet - INFO - The size of test data is 2468
+2024-10-10 11:52:00,857 - ModelNet - INFO - Load processed data from Data/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2024-10-10 11:52:01,160 - root - INFO - ------- Logs/Cloud_Mamba_Reg/ModelNet - 512
+2024-10-10 11:52:01,161 - root - INFO - flops: 575.100M 
+
+2024-10-10 11:52:40,061 - ModelNet - INFO - The size of test data is 2468
+2024-10-10 11:52:40,061 - ModelNet - INFO - Load processed data from Data/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2024-10-10 11:52:40,359 - root - INFO - ------- Logs/Cloud_Mamba_Reg/ModelNet - 256
+2024-10-10 11:52:40,359 - root - INFO - flops: 287.635M
+
+2024-10-11 11:33:04,315 - ModelNet - INFO - The size of test data is 2468
+2024-10-11 11:33:04,315 - ModelNet - INFO - Load processed data from Data/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2024-10-11 11:33:04,619 - root - INFO - ------- Logs/Cloud_Mamba_Reg/ModelNet - 1024
+2024-10-11 11:33:04,619 - root - INFO - flops: 1.150G 
+

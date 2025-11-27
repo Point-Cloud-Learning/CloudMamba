@@ -1,0 +1,18 @@
+dataset: {
+  NAME: S3DIS,
+  train:{
+    NAME: S3DIS,
+    DATA_PATH: Data/indoor3d_sem_seg_hdf5_data,
+    mode: "train",
+    batch_size: 24,
+    num_workers: 24
+  },
+
+  test:{
+    NAME: S3DIS,
+    DATA_PATH: Data/indoor3d_sem_seg_hdf5_data,
+    mode: "test",
+    batch_size: 24,
+    num_workers: 24
+  }
+}

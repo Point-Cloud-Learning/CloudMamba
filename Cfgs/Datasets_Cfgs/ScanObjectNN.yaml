@@ -1,0 +1,22 @@
+dataset: {
+  NAME: ScanObjectNN_Hardest,
+  train:{
+    NAME: ScanObjectNN_Hardest,
+    DATA_PATH: Data/scanobjectnn/main_split_nobg,
+    N_POINTS: 1024,
+    NUM_CATEGORY: 15,
+    mode: "train",
+    batch_size: 16,
+    num_workers: 16
+  },
+
+  test:{
+    NAME: ScanObjectNN_Hardest,
+    DATA_PATH: Data/scanobjectnn/main_split_nobg,
+    N_POINTS: 1024,
+    NUM_CATEGORY: 15,
+    mode: "test",
+    batch_size: 16,
+    num_workers: 16
+  }
+}

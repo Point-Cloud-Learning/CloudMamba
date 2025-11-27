@@ -1,0 +1,24 @@
+dataset: {
+  NAME: ShapeNet,
+  train:{
+    NAME: ShapeNet,
+    DATA_PATH: Data/shapenetcore_partanno_segmentation_benchmark_v0_normal,
+    N_POINTS: 1024,
+    USE_NORMALS: True,
+    UNIFORM_SAMPLING: "fps",
+    mode: "train",
+    batch_size: 16,
+    num_workers: 24
+  },
+
+  test:{
+    NAME: ShapeNet,
+    DATA_PATH: Data/shapenetcore_partanno_segmentation_benchmark_v0_normal,
+    N_POINTS: 1024,
+    USE_NORMALS: True,
+    UNIFORM_SAMPLING: "fps",
+    mode: "test",
+    batch_size: 16,
+    num_workers: 24
+  }
+}

@@ -1,0 +1,16 @@
+model: {
+  MODULE: Runner.Runner_ShapeNet,
+  NAME: Cloud_Mamba_Part,
+  input_dim: 6,
+  trans_dim: 54,
+  group_rate: 3,
+  encoder_layers: [1, 3, 2, 1],
+  decoder_layers: [1, 1, 1, 1],
+  order_prompt: True,
+  rms_norm: False,
+  drop_path: 0.3,
+  group_size: 16,
+  num_group: 1024,
+  cls_dim: 50,
+  category: 16
+}

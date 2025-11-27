@@ -1,0 +1,24 @@
+dataset: {
+  NAME: ModelNet,
+  train:{
+    NAME: ModelNet,
+    DATA_PATH: Data/modelnet40_normal_resampled,
+    N_POINTS: 8192,
+    NUM_CATEGORY: 40,
+    USE_NORMALS: True,
+    mode: "train",
+    batch_size: 16,
+    num_workers: 0
+  },
+
+  test:{
+    NAME: ModelNet,
+    DATA_PATH: Data/modelnet40_normal_resampled,
+    N_POINTS: 8192,
+    NUM_CATEGORY: 40,
+    USE_NORMALS: True,
+    mode: "test",
+    batch_size: 16,
+    num_workers: 0
+  }
+}

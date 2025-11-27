@@ -1,0 +1,15 @@
+model: {
+  MODULE: Runner.Runner_S3DIS,
+  NAME: Cloud_Mamba_Sem,
+  input_dim: 9,
+  trans_dim: 54,
+  group_rate: 3,
+  encoder_layers: [1, 3, 2, 1],
+  decoder_layers: [1, 1, 1, 1],
+  order_prompt: True,
+  rms_norm: False,
+  drop_path: 0.3,
+  group_size: 16,
+  num_group: 4096,
+  cls_dim: 13
+}
